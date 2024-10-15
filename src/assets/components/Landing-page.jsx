@@ -1,5 +1,4 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './landing-page.css'; // Import your CSS file for custom styles
 
 const LandingPage = () => {

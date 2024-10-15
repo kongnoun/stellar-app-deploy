@@ -1,6 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Navbar = () => {
   const [showContactForm, setShowContactForm] = useState(false);
