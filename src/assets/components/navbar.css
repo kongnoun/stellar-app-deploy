@@ -1,0 +1,72 @@
+:root {
+    --color-light: #EBE8BE;  /* Light Color */
+    --color-medium-light: #7aafc8;  /* Medium Light Color */
+    --color-medium-dark: #2a5b7a;  /* Medium Dark Color */
+    --color-dark: #202E24;  /* Dark Color */
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-brand {
+    font-size: 2.1em;
+    font-weight: bold;
+    color: var(--color-white);
+}
+
+.nav-link {
+    font-weight: bold;
+    background: transparent;
+    color: var(--color-white);
+    transition: all .4s ease;
+}
+
+.nav-link:hover {
+    background: var(--color-medium-dark);
+    color: var(--color-white);
+}
+
+/* Specific styles for the Contact link */
+.nav-item:last-child .nav-link {
+    background: var(--color-white);
+    color: var(--color-black); /* White font */
+    transition: all .4s ease;
+}
+
+.nav-item:last-child .nav-link:hover {
+    background: var(--color-medium-dark); /* Optional: Different hover effect */
+    color: var(--color-light); /* Light color on hover */
+}
+
+
+.navbar-toggler {
+    border: none; /* Remove default border */
+  }
+  
+  .navbar-toggler-icon {
+    background-image: none; /* Remove default background */
+  }
+  
+  .navbar-toggler:before, 
+  .navbar-toggler:after,
+  .navbar-toggler span {
+    content: '';
+    display: block;
+    width: 30px; /* Width of the lines */
+    height: 3px; /* Height of the lines */
+    background-color: white; /* Color of the lines */
+    margin: 6px auto; /* Spacing between lines */
+    transition: all 0.35s ease; /* Transition for smooth effect */
+  }
+  
+  .navbar-toggler.collapsed:before {
+    transform: translateY(18px) rotate(180deg); /* Positioning for animation */
+  }
+  
+  .navbar-toggler.collapsed:after {
+    transform: translateY(-18px) rotate(0deg); /* Positioning for animation */
+  }
+  

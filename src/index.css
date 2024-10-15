@@ -1,0 +1,48 @@
+@import url('./assets/components/navbar.css');
+@import url('./assets/components/landing-page.css');
+
+:root {
+    --color-light: #EBE8BE;  /* Light Color */
+    --color-medium-light: #7aafc8;  /* Medium Light Color */
+    --color-medium-dark: #2a5b7a;  /* Medium Dark Color */
+    --color-dark: #202E24;  /* Dark Color */
+    --color-black: #000000;
+    --color-white: #ffffff;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background: var(--color-black);
+    padding: 0.5em;
+}
+
+img,
+video,
+canvas,
+i {
+    display: inline-block;
+    user-select: none;
+}
+
+ul,
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}

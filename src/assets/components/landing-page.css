@@ -1,0 +1,13 @@
+.carousel img {
+    height: 400px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area nicely */
+}
+
+#carouselExampleCaptions {
+    filter: brightness(0.8);
+    transition: all 0.4s ease;
+}
+
+#carouselExampleCaptions:hover {
+    filter: brightness(1);
+}
