@@ -1,4 +1,3 @@
-import React from 'react';
 import './landing-page.css'; // Import your CSS file for custom styles
 
 const LandingPage = () => {
