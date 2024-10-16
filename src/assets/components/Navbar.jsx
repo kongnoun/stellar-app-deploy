@@ -32,7 +32,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand-logo" href="#">
             Stellar.Ins
           </a>
           <button
@@ -91,8 +91,8 @@ const Navbar = () => {
             background: 'white',
             borderRadius: '8px',
             boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-            width: '300px',
-            height: '450px',
+            width: '500px',
+            height: '700px',
             padding: '2em',
             zIndex: 1000,
           }}

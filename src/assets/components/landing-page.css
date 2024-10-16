@@ -9,5 +9,27 @@
 }
 
 #carouselExampleCaptions:hover {
-    filter: brightness(1);
+    filter: brightness(0.92);
+}
+
+.section {
+    height: 50vh; /* Ensures full viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    z-index: 1; /* Ensure text is on top */
+}
+
+.card {
+    opacity: 1; /* Start hidden for animation */
+    transition: all 0.3s ease; /* Optional: Smooth opacity transition */
+}
+
+.card:hover {
+    transform: scale(1.03); /* Slightly enlarge the card on hover */
+    /* transition: transform 0.3s ease; Smooth transition */
 }
